@@ -9,7 +9,7 @@ pipeline {
         }
         stage('rename a direcory') {
             steps {
-               mv 'sh mv original renamed'
+               mv'sh mv original renamed'
       
             }
         }
