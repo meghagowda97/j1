@@ -9,7 +9,7 @@ pipeline {
         }
         stage('create a directory') {
             steps {
-               'sh mkdir /home/ubuntu/original'
+               'sh mkdir /home/ubuntu/original1'
             }
         }
         stage('rename a direcory') {
